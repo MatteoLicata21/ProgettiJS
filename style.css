@@ -1,0 +1,45 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container-green{
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      overflow: hidden;
+      line-height: 0;
+      transform: rotate(180deg);
+  }
+  
+  .container-green svg {
+      position: relative;
+      display: block;
+      width: calc(138% + 1.3px);
+      height: 600px;
+  }
+  
+  .container-green .shape-fill {
+      fill: #00FFCA;
+  }
+  
+  .container-black {
+    position: relative;
+    z-index: -1;
+    min-height: 100%;
+    background-color: black;
+  }
+
+  .container-green-text{
+    transform: rotate(180deg);
+    background-color: #00FFCA;
+  }
+
+  #text-position{
+    position: fixed;
+    top:400px;
+    left: 200px;
+  }
+  
