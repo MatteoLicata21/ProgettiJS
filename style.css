@@ -2,6 +2,7 @@ html, body {
     height: 100%;
     margin: 0;
     padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
   }
   
   .container-green{
@@ -12,6 +13,8 @@ html, body {
       overflow: hidden;
       line-height: 0;
       transform: rotate(180deg);
+      
+      
   }
   
   .container-green svg {
@@ -19,6 +22,7 @@ html, body {
       display: block;
       width: calc(138% + 1.3px);
       height: 600px;
+      
   }
   
   .container-green .shape-fill {
@@ -40,6 +44,20 @@ html, body {
   #text-position{
     position: fixed;
     top:400px;
-    left: 200px;
+    left: 230px;
+    background-color:black;
+    border-radius: 10px;
+    padding: 5px 5px;
+    backdrop-filter: blur(20px);
+  }
+
+  #text-position2{
+    position: fixed;
+    top:400px;
+    left: 1000px;
+    background-color:#00FFCA;
+    border-radius: 10px;
+    padding: 10px 10px;
+    backdrop-filter: blur(20px);
   }
   
